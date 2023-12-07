@@ -1,9 +1,16 @@
 import React from 'react';
+import Header from '../Shaired/Header/Header';
 
 const Home = () => {
     return (
-        <div>
-            <h1>I am home Page</h1>
+        <div className='homepage-container'>
+        
+            <div className='header-container'>
+            <Header/>
+            </div>
+          
+         
+         
         </div>
     );
 };
