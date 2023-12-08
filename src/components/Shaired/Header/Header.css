@@ -2,24 +2,13 @@
     position: sticky;
     background-color: black;
     color: white;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .top-menu{
     border-bottom: 1px solid gray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: flex-start;
     height: 24px;
-    margin-left: 9%;
-    margin-right: 9%;
-    
-}
-
-.contact-care{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .fa-phone{
@@ -27,9 +16,11 @@
     margin-right: 2px;
 }
 
-
+ a{
+    text-decoration: none;
+ }
 .call-1{
-    margin-right: 15px;
+    margin-left: 5px;
     font-size: small;
     font-weight: 400;
     font-family: sans-serif;
@@ -37,8 +28,7 @@
 }
 
 .call-2{
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
     font-size: small;
     font-weight: 400;
     font-family: sans-serif;
@@ -46,33 +36,29 @@
 }
 
 .support-logo{
-    margin-bottom: -2px;
-    width:20px;
+    width:16px;
     margin-right: 2px;
 }
 
 .care{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
-.login-logo{
-    color: red;
-    margin-right: 2px;
-}
+
 
 .login{
-    color: white;
-    margin-left: 10%;
-
+    font-family: sans-serif;
+    margin-left: 48%;
+}
+.login-logo{
+    color: red;
+    margin-right: 6px;
 }
 .login>.login-button{
     color: white;
     text-decoration: none;
 }
-
-hr{
-    color: gray;
-    height: 0;
-    padding: 0;
-    margin: 0;
+.caretDown{
+    margin-left: 8px;
+    color: red;
 }
