@@ -1,25 +1,25 @@
 .header-container{
-    margin-top: 0px;
     position: sticky;
     background-color: black;
     color: white;
 }
-.menu-bar{
-    margin-top: 0px;
-}
 
 .top-menu{
-    margin-top: 0px;
+    border-bottom: 1px solid gray;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
     align-items: center;
+    align-content: flex-start;
+    height: 24px;
+    margin-left: 9%;
+    margin-right: 9%;
+    
 }
 
 .contact-care{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10%;
 }
 
 .fa-phone{
@@ -70,3 +70,9 @@
     text-decoration: none;
 }
 
+hr{
+    color: gray;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
