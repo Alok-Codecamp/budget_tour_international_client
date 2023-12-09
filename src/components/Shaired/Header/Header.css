@@ -65,11 +65,20 @@
     color: red;
 }
 .login-dropdown{
+    
+    visibility: hidden;
     border: 1px solid red;
-    width: 190px;
+    width: 200px;
+    min-width: 200px;
+    position: fixed;
+    top: 25px;
+    right: 9%;
+    left: auto;
+    
    
 }
 .user-details{
+    background-color: #F3F3F3;
     border-bottom: 1px solid red;
     text-align: center;
     padding: 14px;
@@ -78,7 +87,7 @@
 .login-profile-pic{
     border: 1px solid red;
     border-radius: 50%;
-    padding: 30px;
+    padding: 16px;
     width: 32px;
 }
 
@@ -92,13 +101,41 @@
     font-weight: 600;
 
 }
+.new-user{
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
 .register{
-    color: black;
+    color: #605d5d;
 }
 .register-button{
-    color: black;
+    color: #605d5d;
     text-decoration: underline;
 }
-.link-button{
-    color: black;
+.register-button:hover{
+    color: red;
+}
+.user-controle{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.user-controle-link-button{
+    color: #605d5d;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.user-controle>p{
+    height: 10px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.user-controle>p:hover{
+    background:#EBEBEB;
+}
+.user-controle>p>.user-controle-link-button:hover{
+    color: red;
 }
